@@ -15,6 +15,10 @@
 
 ---
 
+<p align="center">
+   <img src="./img/automatiq-cli.png" />
+</p>
+
 ## Table of Contents
 
 1. [Features](#features)
