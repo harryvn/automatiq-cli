@@ -2,11 +2,16 @@
 
 <h3 align="center"> A command-line tool to quickly set up and manage test automation frameworks. </h3>
 
-<p align="center"> <img src="https://img.shields.io/badge/License-GPL_v3-blue.svg"/> </p>
+<p align="center">
+<img src="https://img.shields.io/badge/License-GPL_v3-blue.svg"/> 
+</p>
 
----
-
-![Platforms](https://img.shields.io/badge/OS-Windows%20%7C%20Mac%20%7C%20Linux-blue) ![nodejs](https://img.shields.io/badge/Language-Node.js-orange)
+<p align="center">
+   <img src="https://img.shields.io/badge/-macOS-blue?style=flat&logo=apple&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Windows-blue?style=flat&logo=windows&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Linux-blue?style=flat&logo=linux&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Node.js-blue?style=flat&logo=node.js&logoColor=white" />
+</p>
 
 ---
 
@@ -21,14 +26,13 @@
 
 ## Features
 
-- Interactive project setup wizard
-- Automated repository cloning
-- Project structure initialization
+- `Interactive project setup wizard`
+- `Automated repository cloning`
+- `Project structure initialization`
 
 ## Prerequisites
 
-- Node.js (v16 or higher)
-- npm
+- `Node.js` (v20 or higher)
 
 ## Installation
 
@@ -40,7 +44,7 @@ npm install -g automatiq-cli
 
 ## Usage
 
-After installing globally, you can run the CLI using:
+After installing globally, you can use the `automatiq` command to initialize a new project:
 
 ```bash
 automatiq init
