@@ -1,2 +1,71 @@
-# automatiq-cli
-A command-line tool to quickly set up and manage test automation frameworks.
+<h1 align="center"> AutoMatiQ-CLI </h1>
+
+<h3 align="center"> A command-line tool to quickly set up and manage test automation frameworks. </h3>
+
+<p align="center"> <img src="https://img.shields.io/badge/License-GPL_v3-blue.svg"/> </p>
+
+---
+
+![Platforms](https://img.shields.io/badge/OS-Windows%20%7C%20Mac%20%7C%20Linux-blue) ![nodejs](https://img.shields.io/badge/Language-Node.js-orange)
+
+---
+
+## Table of Contents
+
+1. [Features](#features)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Structure](#structure)
+6. [License](#license)
+
+## Features
+
+- Interactive project setup wizard
+- Automated repository cloning
+- Project structure initialization
+
+## Prerequisites
+
+- Node.js (v16 or higher)
+- npm
+
+## Installation
+
+You can install `automatiq-cli` globally using npm:
+
+```bash
+npm install -g automatiq-cli
+```
+
+## Usage
+
+After installing globally, you can run the CLI using:
+
+```bash
+automatiq init
+```
+
+The CLI will guide you through the following steps:
+
+1. Enter your project name
+2. Choose your preferred framework (JavaScript/Java)
+
+## Structure
+
+The project structure will be based on the selected template repository:
+
+### JavaScript Project
+
+- Includes complete test automation setup with best practices
+- Pre-configured test runner and required dependencies
+
+### Java Project
+
+- Includes complete test automation setup with best practices
+- Pre-configured Maven project with required dependencies
+
+## License
+
+This project is licensed under the GPL License. See
+the [LICENSE](https://github.com/harryvn/automatiq-cli/blob/main/LICENSE) file for details.

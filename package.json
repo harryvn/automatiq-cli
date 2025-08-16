@@ -1,0 +1,47 @@
+{
+  "name": "automatiq-cli",
+  "version": "1.0.0",
+  "description": "Test Automation Framework Setup CLI",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "automatiq": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "node bin/index.js init",
+    "postinstall": "chmod +x ./bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "automation",
+    "testing",
+    "selenium",
+    "webdriver",
+    "automation"
+  ],
+  "author": "Hari Nair",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harryvn/automatiq-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harryvn/automatiq-cli/issues"
+  },
+  "homepage": "https://github.com/harryvn/automatiq-cli#readme",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "debug": "^4.3.4",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.3.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^12.5.0",
+    "ora": "^8.2.0",
+    "simple-git": "^3.27.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
