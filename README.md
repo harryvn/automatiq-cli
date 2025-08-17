@@ -1,6 +1,6 @@
 <h1 align="center"> AutoMatiQ-CLI </h1>
 
-<h3 align="center"> A command-line tool to quickly set up and manage test automation frameworks. </h3>
+<h3 align="center"> Interactive CLI for Test Framework Setup with project scaffolding and configuration management. </h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/License-GPL_v3-blue.svg"/> 

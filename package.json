@@ -1,6 +1,6 @@
 {
   "name": "automatiq-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Interactive CLI for Test Framework Setup with project scaffolding and configuration management.",
   "main": "bin/index.js",
   "type": "module",
