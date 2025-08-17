@@ -25,8 +25,7 @@
 2. [Prerequisites](#prerequisites)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [Structure](#structure)
-6. [License](#license)
+5. [License](#license)
 
 ## Features
 
@@ -59,19 +58,7 @@ The CLI will guide you through the following steps:
 1. Enter your project name
 2. Choose your preferred framework (JavaScript/Java)
 
-## Structure
-
-The project structure will be based on the selected template repository:
-
-### JavaScript Project
-
-- Includes complete test automation setup with best practices
-- Pre-configured test runner and required dependencies
-
-### Java Project
-
-- Includes complete test automation setup with best practices
-- Pre-configured Maven project with required dependencies
+`Note: The project structure will be based on the selected template repository and includes complete test automation setup.`
 
 ## License
 
